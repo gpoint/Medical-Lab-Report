@@ -1,4 +1,4 @@
-# srgmc
+# RR
 
 ## Project setup
 ```
