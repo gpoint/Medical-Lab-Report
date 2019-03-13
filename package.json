@@ -1,0 +1,47 @@
+{
+  "title": "SRGMC Lab Report System",
+  "name": "srgmc",
+  "version": "0.1.0",
+  "author": "Intra Connected African Networks",
+  "description": "SRGMC Lab Report System",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "html2canvas": "^1.0.0-alpha.12",
+    "jquery": "^3.3.1",
+    "jspdf": "^1.5.3",
+    "nodemailer": "^5.1.1",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.0.0-beta.53",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "electron": "^3.0.0",
+    "vue-cli-plugin-bootstrap-vue": "^0.1.0",
+    "vue-cli-plugin-electron-builder": "^1.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "main": "background.js"
+}
