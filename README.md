@@ -1,4 +1,4 @@
-# RR
+# Medical Labooratory Records System
 
 ## Project setup
 ```
